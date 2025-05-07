@@ -1,5 +1,5 @@
 <resource>
-    <info author="For" name="Components for Client" type="script" version="1.0"/>
+    <info author="For" name="Components for Client" type="shared" version="1.0"/>
     
 	<script src="inputLabeled.lua" type="client"/>
 	<export function="createInputField" type="client" />

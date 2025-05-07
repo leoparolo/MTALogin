@@ -1,5 +1,5 @@
 <resource>
-    <info author="For" name="Client Storage" version="1.0" type="script" />
+    <info author="For" name="Client Storage" version="1.0" type="shared" />
     <script src="storage.lua" type="client" />
 
     <export function="saveClientStorage" type="client" />

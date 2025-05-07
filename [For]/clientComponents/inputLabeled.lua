@@ -4,12 +4,6 @@ function createInputField(xLabel, y, labelText, parent)
 
     return {
         label = label,
-        edit = edit,
-        getText = function()
-            return guiGetText(edit)
-        end,
-        setMasked = function(masked)
-            guiEditSetMasked(edit, masked)
-        end
+        edit = edit
     }
 end
