@@ -1,0 +1,8 @@
+<resource>
+    <info author="For" name="Generic Login System" type="script" version="1.0"/>
+    
+	<script src="server.lua" type="server"/>
+    <script src="Client/GUI.lua" type="client"/>
+	<script src="Client/Handler.lua" type="client"/>
+	<include resource="clientComponents" />
+</resource>

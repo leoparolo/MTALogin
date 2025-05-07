@@ -1,0 +1,8 @@
+<resource>
+    <info author="For" name="Client Storage" version="1.0" type="script" />
+    <script src="storage.lua" type="client" />
+
+    <export function="saveClientStorage" type="client" />
+    <export function="loadClientStorage" type="client" />
+    <export function="clearClientStorage" type="client" />
+</resource>
